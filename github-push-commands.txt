@@ -1,0 +1,14 @@
+# GitHub推送命令
+# 请将 YOUR_USERNAME 替換為您的GitHub用戶名
+
+# 添加遠程倉庫
+git remote add origin https://github.com/YOUR_USERNAME/report-system-app.git
+
+# 推送代碼
+git branch -M main
+git push -u origin main
+
+# 示例（請替換用戶名）：
+# git remote add origin https://github.com/yourname/report-system-app.git
+# git branch -M main  
+# git push -u origin main 
