@@ -1,0 +1,25 @@
+🚀 Netlify部署说明 - 2分钟生成APK
+
+📦 这个文件夹包含您的报告系统Web版本
+
+🔥 快速部署步骤：
+
+1. 打开网址：https://app.netlify.com/drop
+   
+2. 将整个"netlify-deploy"文件夹拖拽到网页上
+
+3. 等待上传完成（约30秒）
+
+4. 获得公网URL（类似：https://xxxxx.netlify.app）
+
+5. 复制URL到PWABuilder：https://www.pwabuilder.com/
+
+6. 生成并下载APK
+
+✅ 优势：
+- 无需注册账号
+- 拖拽即可部署
+- 自带HTTPS证书
+- 立即可用
+
+�� 您的APK将在5分钟内生成完成！ 

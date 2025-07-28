@@ -1,0 +1,84 @@
+{
+  "name": "报告系统",
+  "short_name": "报告系统",
+  "description": "专业的报告管理系统，支持PDF生成和数据管理",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#667eea",
+  "background_color": "#ffffff",
+  "scope": "/",
+  "lang": "zh-CN",
+  "categories": ["business", "productivity"],
+  "id": "report-system-app",
+  "version": "1.0.0",
+  "manifest_version": 1,
+  "icons": [
+    {
+      "src": "./assets/icon.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "./assets/adaptive-icon.png",
+      "sizes": "1024x1024", 
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "./assets/icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./assets/icon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./assets/icon.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./assets/icon.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./assets/icon.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./assets/icon.png",
+      "sizes": "48x48",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "prefer_related_applications": false,
+  "related_applications": [],
+  "dir": "ltr",
+  "protocol_handlers": [],
+  "shortcuts": [
+    {
+      "name": "创建报告",
+      "short_name": "创建",
+      "description": "快速创建新报告",
+      "url": "/",
+      "icons": [
+        {
+          "src": "./assets/icon.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+} 
