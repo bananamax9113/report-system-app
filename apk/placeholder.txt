@@ -1,0 +1,20 @@
+# APK文件目录
+
+本目录用于存放报告系统的Android安装包(APK)文件。
+
+## APK文件获取方法
+
+1. 从GitHub Releases获取：
+   - https://github.com/bananamax9113/report-system-app/releases/latest
+
+2. 使用PWABuilder生成：
+   - 访问 https://www.pwabuilder.com/
+   - 输入部署URL (https://bananamax9113.github.io/report-system-app/)
+   - 生成Android APK
+
+## 当前版本
+
+- 最新版本：v1.0.0
+- 构建日期：2025-07-28
+
+更多信息，请查看 `apk/README.md` 
