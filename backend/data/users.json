@@ -1,0 +1,9 @@
+[
+  {
+    "id": "1",
+    "username": "admin",
+    "password": "$2b$08$tJhQ/9Pgf1WEk2MnEru7e..PaFM3WnfZoyAWmt7fU7p9Wb0GSB94.",
+    "realName": "管理員",
+    "role": "admin"
+  }
+]

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>報告系統 - Expo 應用安裝指南</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .qr-code {
+            margin: 20px 0;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .instructions {
+            background-color: #f5f5f5;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+            width: 100%;
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        h2 {
+            color: #555;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        .highlight {
+            background-color: #e6f7ff;
+            padding: 2px 5px;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        .platform {
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            margin-top: 20px;
+        }
+        .platform-box {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 15px;
+            width: 45%;
+            text-align: center;
+        }
+        .app-link {
+            display: inline-block;
+            background-color: #2196F3;
+            color: white;
+            padding: 10px 15px;
+            text-decoration: none;
+            border-radius: 4px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>報告系統 - Expo 應用安裝指南</h1>
+        
+        <div class="instructions">
+            <h2>如何使用Expo Go訪問應用</h2>
+            <ol>
+                <li>在您的手機上安裝 <strong>Expo Go</strong> 應用：
+                    <ul>
+                        <li>安卓用戶：<a href="https://play.google.com/store/apps/details?id=host.exp.exponent" target="_blank" rel="noopener noreferrer">Google Play商店下載</a></li>
+                        <li>蘋果用戶：<a href="https://apps.apple.com/app/expo-go/id982107779" target="_blank" rel="noopener noreferrer">App Store下載</a></li>
+                    </ul>
+                </li>
+                <li>在Expo Go中，點擊底部的<span class="highlight">掃描QR碼</span>按鈕</li>
+                <li>掃描以下任一QR碼，或者點擊直接開啟鏈接</li>
+            </ol>
+        </div>
+
+        <div class="platform">
+            <div class="platform-box">
+                <h3>安卓版本</h3>
+                <div class="qr-code">
+                    <img src="https://qr.expo.dev/eas-update?updateId=d544376c-e86d-455a-87ff-52a0080d14b8&appScheme=exp&host=u.expo.dev" width="200" alt="Android QR Code">
+                </div>
+                <a href="exp://u.expo.dev/update/d544376c-e86d-455a-87ff-52a0080d14b8" class="app-link">直接開啟Android應用</a>
+            </div>
+            
+            <div class="platform-box">
+                <h3>iOS版本</h3>
+                <div class="qr-code">
+                    <img src="https://qr.expo.dev/eas-update?updateId=9aa08c4f-0133-400d-b552-5d03619b14ed&appScheme=exp&host=u.expo.dev" width="200" alt="iOS QR Code">
+                </div>
+                <a href="exp://u.expo.dev/update/9aa08c4f-0133-400d-b552-5d03619b14ed" class="app-link">直接開啟iOS應用</a>
+            </div>
+        </div>
+        
+        <div class="instructions" style="margin-top: 30px;">
+            <h2>應用詳細信息</h2>
+            <ul>
+                <li><strong>應用名稱:</strong> ReportSystem</li>
+                <li><strong>版本:</strong> 1.0</li>
+                <li><strong>發布日期:</strong> 2025年7月21日</li>
+                <li><strong>Expo 儀表板:</strong> <a href="https://expo.dev/accounts/bananamax/projects/report-system-app/updates/1a4c7d08-340c-424b-a23b-f34bbb3d1b74" target="_blank" rel="noopener noreferrer">查看</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html> 

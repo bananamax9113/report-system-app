@@ -1,0 +1,59 @@
+{
+  "expo": {
+    "name": "報告系統",
+    "slug": "report-system-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "icon": "./assets/icon.png",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourcompany.reportsystemapp"
+    },
+    "android": {
+      "package": "com.yourcompany.reportsystemapp",
+      "useNextNotificationsApi": true,
+      "compileSdkVersion": 34,
+      "targetSdkVersion": 34,
+      "buildToolsVersion": "34.0.0",
+      "icon": "./assets/icon.png",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "允許應用程式使用相機拍攝報告照片"
+        }
+      ],
+      [
+        "expo-media-library",
+        {
+          "photosPermission": "允許應用程式訪問您的照片，以便選擇報告圖片",
+          "savePhotosPermission": "允許應用程式保存照片到您的相冊",
+          "isAccessMediaLocationEnabled": true
+        }
+      ]
+    ],
+    "owner": "bananamax",
+    "extra": {
+      "eas": {
+        "projectId": "bc7148f0-cc64-4619-9486-06354510d342"
+      }
+    },
+    "web": {
+      "bundler": "metro"
+    }
+  }
+} 
